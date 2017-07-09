@@ -60,7 +60,7 @@ class App extends Component {
       .then(response => response.json())
       .then(data => {
 				this.setState({
-					excerpts: data.excerpts,
+					excerpts: data.excerpts.map((item) => _.assign(item, { date: new Date(item.date) })),
 					categories: data.categories,
 					chosenCategory: data.categories[0],
 				});
