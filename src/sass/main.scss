@@ -185,28 +185,33 @@ html, body, .wrapper {
 	padding: $menu-link-height / 4 16px;
 
 	.search-block {
-		@include clearfix();
 		width: 100%;
+		position: relative;
 
 		.search-input {
 			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
 			height: $menu-link-height / 2;
 			padding: 0 4px;
 			margin: 0;
 			border: none;
 			outline: none;
-			float: left;
 			border-radius: 2px 0 0 2px;
 			box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,0.20);
 		}
 
 		.search-button {
 			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
 			height: $menu-link-height / 2;
 			width: $menu-link-height / 2;
 			border: none;
+			border-left: 2px solid $search-red;
 			cursor: pointer;
-			float: left;
 			border-radius: 0 2px 2px 0;
 			margin-left: 2px;
 			padding: 0;
@@ -506,7 +511,7 @@ html, body, .wrapper {
 	color: #fff;
 	
 	.display-excerpts-as {
-		font-size: 14px;
+		font: 14px 'Arimo', Arial, sans-serif;
 		line-height: $menu-link-height;
 	}
 	.display-excerpts-block {

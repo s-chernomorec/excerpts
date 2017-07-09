@@ -2594,29 +2594,30 @@ html, body, .wrapper {
   text-align: center;
   padding: 12px 16px; }
   .search-wrapper .search-block {
-    width: 100%; }
-    .search-wrapper .search-block:before, .search-wrapper .search-block:after {
-      content: "";
-      display: table; }
-    .search-wrapper .search-block:after {
-      clear: both; }
+    width: 100%;
+    position: relative; }
     .search-wrapper .search-block .search-input {
       display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
       height: 24px;
       padding: 0 4px;
       margin: 0;
       border: none;
       outline: none;
-      float: left;
       border-radius: 2px 0 0 2px;
       box-shadow: inset 1px 1px 3px 1px rgba(0, 0, 0, 0.2); }
     .search-wrapper .search-block .search-button {
       display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
       height: 24px;
       width: 24px;
       border: none;
+      border-left: 2px solid #a43b35;
       cursor: pointer;
-      float: left;
       border-radius: 0 2px 2px 0;
       margin-left: 2px;
       padding: 0;
@@ -2837,7 +2838,7 @@ html, body, .wrapper {
   height: 48px;
   color: #fff; }
   .excerpts-display-style-wrapper .display-excerpts-as {
-    font-size: 14px;
+    font: 14px 'Arimo', Arial, sans-serif;
     line-height: 48px; }
   .excerpts-display-style-wrapper .display-excerpts-block {
     display: inline-block;
