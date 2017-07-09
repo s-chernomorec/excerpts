@@ -34,7 +34,7 @@ html, body, .wrapper {
   text-align: center;
 
   h1 {
-    font: $main-header-font-size 'Oswald', sans-serif;
+    font: $main-header-font-size 'Oswald Light', sans-serif;
     font-weight: 300;
     line-height: $header-height;
     color: #fff;
@@ -62,7 +62,7 @@ html, body, .wrapper {
 	position: relative;
 
   p {
-    font: $paragraph-font-size 'Oswald', sans-serif;
+    font: $paragraph-font-size 'Oswald Light', sans-serif;
     font-weight: 300;
   }
 }
@@ -267,7 +267,7 @@ html, body, .wrapper {
 	.excerpt-title {
 		display: block;
 		float: left;
-		font: $excerpt-title-font-size 'Oswald', sans-serif;
+		font: $excerpt-title-font-size 'Oswald Light', sans-serif;
 		font-weight: 300;
 	}
 	
@@ -275,7 +275,7 @@ html, body, .wrapper {
 		display: block;
 		float: right;
 		margin-top: $excerpt-title-font-size - $excerpt-category-font-size;
-		font: $excerpt-category-font-size 'Oswald', sans-serif;
+		font: $excerpt-category-font-size 'Oswald Light', sans-serif;
 		color: $form-border-gray;
 	}
 }
