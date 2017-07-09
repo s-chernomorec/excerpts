@@ -194,6 +194,7 @@ html, body, .wrapper {
 			top: 0;
 			left: 0;
 			height: $menu-link-height / 2;
+			width: 238px - $menu-link-height / 2;
 			padding: 0 4px;
 			margin: 0;
 			border: none;
@@ -208,7 +209,7 @@ html, body, .wrapper {
 			top: 0;
 			right: 0;
 			height: $menu-link-height / 2;
-			width: $menu-link-height / 2;
+			width: $menu-link-height / 2 + 2px;
 			border: none;
 			border-left: 2px solid $search-red;
 			cursor: pointer;
