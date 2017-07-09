@@ -1,0 +1,35 @@
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin center() {
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+@mixin positionedFullHeight($position, $side) {
+	position: $position;
+	top: 0;
+  bottom: 0;
+	@if $side == 'right' {
+		right: 0;
+	}
+	@if $side == 'left' {
+		left: 0;
+	}
+}
+
+@mixin roundedChildrenOfBlock($value) {
+	&:first-child { border-radius: $value 0 0 $value; }
+	
+	&:last-child { border-radius: 0 $value $value 0; }
+	
+	&:only-of-type { border-radius: $value; }
+}

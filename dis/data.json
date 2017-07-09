@@ -1,0 +1,218 @@
+{
+	"categories": [
+	   {
+		  "name":"Books",
+		  "titles":[
+			 "To Kill a Mockingbird",
+			 "On The Road",
+			 "The Art of War",
+			 "The Road",
+			 "Kafka on the Shore",
+			 "Ulysses",
+			 "The Mysterious Island",
+			 "The Picture Of Dorian Gray",
+			 "The Children Of Men",
+			 "Great Expectations",
+			 "The Good Soldier",
+			 "Snow Falling on Cedars"
+		  ]
+	   },
+	   {
+		  "name":"People",
+		  "titles":[
+			 "Mahatma Gandhi",
+			 "Steve Jobs",
+			 "Frank Sinatra",
+			 "Eleanor Roosevelt",
+			 "Kurt Cobain",
+			 "Oscar Wilde"
+		  ]
+	   }
+	],
+	"excerpts": [
+	   {
+		  "id":0,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"To Kill a Mockingbird",
+		  "text":"Most people are nice when you finally see them."
+	   },
+	   {
+		  "id":1,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"To Kill a Mockingbird",
+		  "text":"You never really understand a person until you consider things from his point of view... until you climb into his skin and walk around in it."
+	   },
+	   {
+		  "id":2,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"The Art of War",
+		  "text":"Appear weak when you are strong, and strong when you are weak."
+	   },
+	   {
+		  "id":3,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"On The Road",
+		  "text":"The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing."
+	   },
+	   {
+		  "id":4,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"The Road",
+		  "text":"You forget what you want to remember, and you remember what you want to forget."
+	   },
+	   {
+		  "id":5,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"Kafka on the Shore",
+		  "text":"Memories warm you up from the inside. But they also tear you apart."
+	   },
+	   {
+		  "id":6,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"Ulysses",
+		  "text":"History, Stephen said, is a nightmare from which I am trying to awake."
+	   },
+	   {
+		  "id":7,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"The Mysterious Island",
+		  "text":"It is a great misfortune to be alone, my friends; and it must be believed that solitude can quickly destroy reason."
+	   },
+	   {
+		  "id":8,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"The Picture Of Dorian Gray",
+		  "text":"Nowadays people know the price of everything and the value of nothing."
+	   },
+	   {
+		  "id":9,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"The Children Of Men",
+		  "text":"We can experience nothing but the present moment, live in no other second of time, and to understand this is as close as we can get to eternal life."
+	   },
+	   {
+		  "id":10,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"Great Expectations",
+		  "text":"We need never be ashamed of our tears."
+	   },
+	   {
+		  "id":11,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"The Good Soldier",
+		  "text":"Why can't people have what they want? The things were all there to content everybody; yet everybody has the wrong thing."
+	   },
+	   {
+		  "id":12,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Mahatma Gandhi",
+		  "text":"The future depends on what you do today."
+	   },
+	   {
+		  "id":13,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"Books",
+		  "title":"Snow Falling on Cedars",
+		  "text":"None of those other things makes a difference. Love is the strongest thing in the world, you know. Nothing can touch it. Nothing comes close. Love is the biggest thing there is."
+	   },
+	   {
+		  "id":14,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Mahatma Gandhi",
+		  "text":"The weak can never forgive. Forgiveness is the attribute of the strong."
+	   },
+	   {
+		  "id":15,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Mahatma Gandhi",
+		  "text":"First they ignore you, then they laugh at you, then they fight you, then you win."
+	   },
+	   {
+		  "id":16,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Steve Jobs",
+		  "text":"Great things in business are never done by one person. They're done by a team of people."
+	   },
+	   {
+		  "id":17,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Steve Jobs",
+		  "text":"Innovation distinguishes between a leader and a follower."
+	   },
+	   {
+		  "id":18,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Frank Sinatra",
+		  "text":"The best revenge is massive success."
+	   },
+	   {
+		  "id":19,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Eleanor Roosevelt",
+		  "text":"Do what you feel in your heart to be right, for you’ll be criticized anyway."
+	   },
+	   {
+		  "id":20,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Kurt Cobain",
+		  "text":"Wanting to be someone else is a waste of who you are."
+	   },
+	   {
+		  "id":21,
+		  "favourite":false,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Oscar Wilde",
+		  "text":"Success is a science; if you have the conditions, you get the result."
+	   },
+	   {
+		  "id":22,
+		  "favourite":true,
+		  "date":"2017-07-09T00:47:31.944Z",
+		  "category":"People",
+		  "title":"Oscar Wilde",
+		  "text":"Most people are other people. Their thoughts are someone else's opinions, their lives a mimicry, their passions a quotation."
+	   }
+	]
+}
