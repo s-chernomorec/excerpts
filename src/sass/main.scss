@@ -121,7 +121,7 @@ html, body, .wrapper {
       cursor: pointer;
     }
   }
-	
+
 	.menu-item-active {
 		background-color: $menu-lighter-blue;
 	}
@@ -169,7 +169,7 @@ html, body, .wrapper {
     background-color: $menu-darker-blue;
     border-bottom: 1px solid $menu-blue;
     padding-left: 20px;
-		
+
     &:hover { background-color: $menu-lighter-blue; }
   }
 }
@@ -246,11 +246,11 @@ html, body, .wrapper {
 }
 
 
-//		PAGE -> EXCERPT 
+//		PAGE -> EXCERPT
 
 .excerpt-list-wrapper {
 	margin-bottom: $frame-padding;
-	
+
 	.excerpt-body:before {
 		display: block;
 		position: absolute;
@@ -269,14 +269,14 @@ html, body, .wrapper {
 
 .excerpt-header {
 	@include clearfix();
-	
+
 	.excerpt-title {
 		display: block;
 		float: left;
 		font: $excerpt-title-font-size 'Oswald Light', sans-serif;
 		font-weight: 300;
 	}
-	
+
 	.excerpt-category {
 		display: block;
 		float: right;
@@ -295,12 +295,12 @@ html, body, .wrapper {
   font: $excerpt-font-size 'Playfair Display', serif;
 	border: 1px solid #ddd;
 	box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.23);
-	
+
 	.excerpt-text {
 		display: block;
 		overflow-x: hidden;
 	}
-	
+
 	.excerpt-edit-textarea {
 		display: block;
 		width: 100%;
@@ -314,14 +314,14 @@ html, body, .wrapper {
 		outline: none;
 		overflow: hidden;
 		resize: none;
-		
+
 		&:focus {
 			border: 1px solid $form-border-gray;
 		}
 	}
-	
+
 	.excerpt-date-wrapper {
-		
+
 		.excerpt-date, .excerpt-time {
 			font: $small-font-size 'Arimo', sans-serif;
 			text-align: center;
@@ -331,18 +331,18 @@ html, body, .wrapper {
 }
 
 .manage-excerpt-wrapper {
-		
+
 	.manage-excerpt {
 		width: 100%;
 		height: 100%;
-		
+
 		.manage-excerpt-button {
 			border: none;
 			cursor: pointer;
 			font-size: $manage-excerpt-button-height;
 			text-align: center;
 			color: #bbb;
-			
+
 			&:hover {
 				color: $search-red;
 			}
@@ -354,16 +354,16 @@ html, body, .wrapper {
 //	EXCERPTS AS LIST
 
 .excerpts-display-list {
-	
+
 	.excerpt-body {
 		padding: 12px $excerpt-list-side-block-width + 12px;
-		
+
 		.excerpt-date-wrapper {
 			@include positionedFullHeight(absolute, 'left');
 			width: $excerpt-list-side-block-width;
 			padding-top: 10px;
 			border-right: 1px solid #ddd;
-			
+
 			.excerpt-date,
 			.excerpt-time {
 				display: block;
@@ -371,13 +371,13 @@ html, body, .wrapper {
 				margin: 0 auto;
 			}
 		}
-		
+
 		.manage-excerpt-wrapper {
 			@include positionedFullHeight(absolute, 'right');
 			width: $excerpt-list-side-block-width;
 			border-left: 1px solid #ddd;
 			padding: 2px;
-			
+
 			.manage-excerpt {
 				@include clearfix();
 
@@ -390,11 +390,11 @@ html, body, .wrapper {
 			}
 		}
 	}
-	
+
 	.excerpt-is-favourite {
 		border: 1px solid rgba($search-red, 0.35);
 		box-shadow: 0px 0px 9px -1px rgba(205, 169, 168, 1);
-		
+
 		&:before {
 			@include positionedFullHeight(absolute, 'left');
 			display: block;
@@ -404,11 +404,11 @@ html, body, .wrapper {
 			content: '';
 			transition: all 0.1s ease-out;
 		}
-		
+
 		.excerpt-date-wrapper {
 			border-right: 1px solid rgba($search-red, 0.35);
 		}
-		
+
 		.manage-excerpt-wrapper {
 			border-left: 1px solid rgba($search-red, 0.35);
 		}
@@ -421,11 +421,11 @@ html, body, .wrapper {
 .excerpts-display-tile {
 	column-count: 3;
 	column-gap: 16px;
-	
+
 	.excerpt-wrapper {
 		position: relative;
 		display: inline-block;
-		
+
 		&:after {
 			display: block;
 			position: absolute;
@@ -436,7 +436,7 @@ html, body, .wrapper {
 			background-color: #ddd;
 			content: '';
 		}
-	
+
 		.excerpt-title {
 			font-size: $excerpt-title-font-size - 6px;
 		}
@@ -444,21 +444,21 @@ html, body, .wrapper {
 		.excerpt-category {
 			margin-top: $excerpt-title-font-size - $excerpt-category-font-size - 6px;
 		}
-		
+
 		.excerpt-body {
 			padding: 12px 12px $excerpt-tile-bottom-block-height + 12px 12px;
-			
+
 			.excerpt-date-wrapper,
 			.manage-excerpt-wrapper {
 				height: $excerpt-tile-bottom-block-height;
 			}
-			
+
 			.excerpt-date-wrapper {
 				position: absolute;
 				left: 0;
 				bottom: 0;
 				padding-left: 12px;
-				
+
 				.excerpt-date,
 				.excerpt-time {
 					display: inline-block;
@@ -466,13 +466,13 @@ html, body, .wrapper {
 					line-height: $excerpt-tile-bottom-block-height;
 				}
 			}
-			
+
 			.manage-excerpt-wrapper {
 				position: absolute;
 				right: 0;
 				bottom: 0;
 				margin-right: 12px;
-				
+
 				.manage-excerpt {
 
 					.manage-excerpt-button {
@@ -483,7 +483,7 @@ html, body, .wrapper {
 				}
 			}
 		}
-		
+
 		.excerpt-is-favourite {
 			&:before {
 				display: block;
@@ -510,35 +510,42 @@ html, body, .wrapper {
 	display: inline-block;
 	height: $menu-link-height;
 	color: #fff;
-	
+
+  .display-excerpts-as,
+  .display-excerpts-btn {
+		font-family: 'Arimo', Arial, sans-serif;
+  }
+
 	.display-excerpts-as {
-		font: 14px 'Arimo', Arial, sans-serif;
 		line-height: $menu-link-height;
+    font-size: 14px;
 	}
+
 	.display-excerpts-block {
 		display: inline-block;
 		margin-left: 10px;
-		
+
 		.display-excerpts-btn {
 			display: inline-block;
 			@include roundedChildrenOfBlock(2px);
 			padding: 3px 0;
 			min-width: 60px;
+      font-size: 16px;
 			text-align: center;
 			box-shadow: inset -1px -1px 1px 1px rgba(0, 0, 0, 0.15);
 			background-color: #fff;
 			color: #000;
 			cursor: pointer;
-			
+
 			&:hover {
 				background-color: $excerpt-light-red;
 			}
 		}
-		
+
 		.display-excerpts-btn-active {
 			background-color: lighten($search-red, 5%);
 			box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,0.25);
-			
+
 			&:hover {
 				background-color: $search-red;
 			}
@@ -550,7 +557,7 @@ html, body, .wrapper {
 //		ABOUT PAGE
 
 .about-page {
-	
+
 	.about-paragraph {
 		display: block;
 		margin-bottom: $global-font-size;
@@ -559,7 +566,7 @@ html, body, .wrapper {
 	.about-link {
 		font-style: italic;
 		color: $search-red;
-		
+
 		&:hover {
 			color: lighten($search-red, 20%);
 		}
@@ -573,7 +580,7 @@ html, body, .wrapper {
 	padding-top: $frame-padding - 10px;
 	height: $pagination-size + $frame-padding - 10px;
 	position: relative;
-	
+
 	&:before {
 		display: block;
 		position: absolute;
@@ -584,17 +591,17 @@ html, body, .wrapper {
 		background-color: #ddd;
 		content: '';
 	}
-	
+
 	.page-pagination {
 		@include clearfix();
 		@include center();
 		position: absolute;
 		text-align: center;
-		
+
 		.pagination-block {
 			@include clearfix();
 			float: left;
-			
+
 			.pagination-btn,
 			.pagination-page-number {
 				@include roundedChildrenOfBlock(3px);
@@ -603,7 +610,7 @@ html, body, .wrapper {
 				height: $pagination-size;
 				border: none;
 			}
-			
+
 			.pagination-btn {
 				cursor: pointer;
 				font-size: 18px;
@@ -612,15 +619,15 @@ html, body, .wrapper {
 				border: 1px solid #ddd;
 				box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.15),  inset -1px -1px 3px 0px rgba(0,0,0,0.03);
 				transition: all 0.2s ease, color 0.2s ease;
-				
+
 				&:first-child {
 					border-right: none;
 				}
-				
+
 				&:hover {
 					background-color: #ddd;
 				}
-				
+
 				&:active {
 					background-color: #ccc;
 					border-color: #ccc;
@@ -635,7 +642,7 @@ html, body, .wrapper {
 				line-height: $pagination-size;
 			}
 		}
-		
+
 		.pagination-center-block {
 			margin: 0 10px;
 		}
@@ -652,7 +659,7 @@ html, body, .wrapper {
 	margin-bottom: $global-font-size;
 	border-radius: 3px;
 	background-color: $search-red;
-	
+
 	.validation-message {
 		display: block;
 		font: $small-font-size 'Arimo', sans-serif;
@@ -664,32 +671,32 @@ html, body, .wrapper {
 	width: 100%;
 	min-height: 100%;
 	background-color: $menu-blue;
-	
+
 	.no-match-404 {
 		position: absolute;
 		top: 15%;
 		right: 15%;
-			
+
 		h1 {
 			font: 16vw 'Arimo', sans-serif;
 			color: #fff;
 		}
 	}
-	
+
 	.no-match-index-link {
 		position: absolute;
 		top: 40%;
 		left: 15%;
-		
+
 		a {
 			font: 32px 'Arimo', sans-serif;
 			color: #fff;
-			
+
 			&:hover {
 				color: #ccc;
 			}
 		}
-	} 
+	}
 }
 
 
@@ -698,5 +705,3 @@ html, body, .wrapper {
 		left: 1280 - $sidebar-width;
 	}
 }
-
-

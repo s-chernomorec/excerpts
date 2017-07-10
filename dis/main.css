@@ -2838,9 +2838,12 @@ html, body, .wrapper {
   display: inline-block;
   height: 48px;
   color: #fff; }
+  .excerpts-display-style-wrapper .display-excerpts-as,
+  .excerpts-display-style-wrapper .display-excerpts-btn {
+    font-family: 'Arimo', Arial, sans-serif; }
   .excerpts-display-style-wrapper .display-excerpts-as {
-    font: 14px 'Arimo', Arial, sans-serif;
-    line-height: 48px; }
+    line-height: 48px;
+    font-size: 14px; }
   .excerpts-display-style-wrapper .display-excerpts-block {
     display: inline-block;
     margin-left: 10px; }
@@ -2848,6 +2851,7 @@ html, body, .wrapper {
       display: inline-block;
       padding: 3px 0;
       min-width: 60px;
+      font-size: 16px;
       text-align: center;
       box-shadow: inset -1px -1px 1px 1px rgba(0, 0, 0, 0.15);
       background-color: #fff;
